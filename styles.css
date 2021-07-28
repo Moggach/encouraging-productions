@@ -7,12 +7,13 @@
 
 body {
   font-family: 'Cabin', sans-serif;
+  background-color: #f8bd42;
 }
 
 header {
-  height: 60vh;
   background-color: #272e64;
   font-size: 4rem;
+  padding: 3rem;
   color: #f8bd42;
   display: flex;
   align-items: center;
@@ -28,11 +29,8 @@ h2 {
 }
 
 main {
-  background-color: #f8bd42;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 2rem;
 }
 
 img {
@@ -40,9 +38,31 @@ img {
 }
 
 .text {
-  background-color: #f8bd42;
   color: #272e64;
-  text-align: center;
   font-size: 2rem;
-  padding: 1rem;
+  margin-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow: hidden;
+  }
+  header {
+    font-size: 1rem;
+    padding-bottom: 4rem;
+  }
+  main {
+    flex-direction: column;
+  }
+  img {
+    margin-top: 3rem;
+    max-width: 80%;
+  }
+
+  .text {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: 0;
+  }
 }
