@@ -32,8 +32,17 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
 }
 
 img {
   max-width: 50%;
+}
+
+.text {
+  background-color: #f8bd42;
+  color: #272e64;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
 }
