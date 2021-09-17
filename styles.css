@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
+
+@font-face {
+  font-family: 'PoplarStd';
+  src: url('./PoplarStd.otf') format('opentype');
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -33,16 +39,80 @@ main {
   align-items: center;
 }
 
-img {
-  max-width: 50%;
-}
-
 .text {
   color: #272e64;
   font-size: 2rem;
   margin-left: 2rem;
 }
 
+/*specific styles for taking stock*/
+.taking_stock_header {
+  color: #0076ba;
+  background-color: white;
+  font-family: 'PoplarStd';
+  font-size: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.taking_stock_container {
+  background-color: white;
+}
+
+.hero {
+  background-image: url('./sean-pollock-PhYq704ffdA-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  color: white;
+  font-size: 1rem;
+}
+
+.hero {
+  position: relative;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('./sean-pollock-PhYq704ffdA-unsplash.jpg');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  filter: brightness(80%);
+}
+.text-container {
+  position: relative;
+  height: 20%;
+  display: flex;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  margin-top: 10%;
+}
+
+.img_gallery {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-gap: 1rem;
+  width: 100%;
+  padding: 0;
+}
+
+.img_tile img {
+  border-radius: 0.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  margin-left: 1rem;
+}
+.caption {
+  margin-left: 1rem;
+}
 @media only screen and (max-width: 600px) {
   body {
     overflow: hidden;
