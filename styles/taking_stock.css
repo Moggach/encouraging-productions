@@ -1,0 +1,148 @@
+@font-face {
+  src: url('./fonts/PoplarStd.otf') format('opentype');
+  font-family: 'PoplarStd';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html {
+  margin: 0 auto;
+  max-width: 2000px;
+  font-family: 'Inter', sans-serif;
+}
+
+.taking_stock_header {
+  color: #0076ba;
+  font-family: 'PoplarStd';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taking_stock_header h1 {
+  font-size: 8vh;
+}
+
+.icon img {
+  height: 8vh;
+  margin-right: 0.5vw;
+  cursor: pointer;
+}
+
+.hero {
+  width: 100%;
+  position: relative;
+  height: 30vh;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('/images/hero.jpeg');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  filter: brightness(80%);
+}
+
+h2 {
+  position: absolute;
+  font-size: 5vh;
+  top: 40%;
+  left: 2vw;
+  color: white;
+  text-decoration: underline;
+}
+
+.img_gallery {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  column-gap: 10vh;
+  row-gap: 20vh;
+  margin-bottom: 20vh;
+}
+
+.img_tile {
+  position: relative;
+}
+
+.img_tile img {
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+}
+
+.img_overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.img_overlay:hover {
+  opacity: 0.8;
+}
+
+.caption {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 1.5vh;
+  border-radius: 2%;
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
+.caption p {
+  font-size: 2.7vh;
+  text-align: center;
+  margin-top: 1vh;
+  margin-bottom: 0;
+  padding-bottom: 2vh;
+}
+.bold {
+  font-weight: 900;
+}
+footer {
+  background-color: #0076ba;
+  color: white;
+  font-size: 3vh;
+  padding: 1vh;
+}
+
+footer p {
+  margin-left: 1vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .img_gallery {
+    grid-template-columns: 1fr;
+    width: 90%;
+    row-gap: 23vh;
+    margin-bottom: 20vh;
+  }
+
+  .img_tile img {
+    min-width: 100%;
+    margin: 0 auto;
+  }
+  .img_overlay:hover {
+    opacity: 0;
+  }
+  .caption {
+    font-size: 0.5vh;
+  }
+  footer p {
+    margin-left: 3vw;
+  }
+}
