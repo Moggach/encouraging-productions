@@ -30,18 +30,24 @@ h1 {
 .flex-container {
   max-width: 80%;
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   padding: 1rem;
 }
 
 .copy {
   line-height: 1.5rem;
+  text-align: center;
   margin: 0 auto;
 }
 
 .iframe-container {
   margin: 0 auto;
+  width: 90%;
   margin-top: 2rem;
+}
+
+iframe {
+  width: 100%;
 }
 
 img {
@@ -52,6 +58,7 @@ img {
 
 .contact {
   font-size: 1rem;
+  text-align: center;
 }
 
 .contact a {
