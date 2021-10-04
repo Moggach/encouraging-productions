@@ -128,7 +128,7 @@ footer p {
   .img_gallery {
     grid-template-columns: 1fr;
     width: 90%;
-    row-gap: 23vh;
+    row-gap: 20vh;
     margin-bottom: 20vh;
   }
 
