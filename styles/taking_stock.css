@@ -17,7 +17,7 @@ html {
 
 .taking_stock_header {
   color: #0076ba;
-  font-family: 'PoplarStd';
+  font-family: 'PoplarStd', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
