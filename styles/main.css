@@ -20,7 +20,8 @@ header {
   color: #f8bd42;
   font-size: 1.3rem;
   text-align: center;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 h1 {
@@ -64,15 +65,15 @@ img {
 .contact a {
   text-decoration: none;
 }
+.contact a:visited {
+  color: black;
+}
+
 @media only screen and (min-width: 768px) {
   header {
-    font-size: 4rem;
-    padding: 4rem;
-  }
-
-  .header-container {
-    display: flex;
-    flex-direction: column;
+    font-size: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
   .flex-container {
     max-width: 70%;
