@@ -128,8 +128,8 @@ footer p {
   .img_gallery {
     grid-template-columns: 1fr;
     width: 90%;
-    row-gap: 20vh;
-    margin-bottom: 20vh;
+    row-gap: 10vh;
+    margin-bottom: 10vh;
   }
 
   .img_tile img {
