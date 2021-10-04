@@ -63,16 +63,12 @@ h2 {
 .img_gallery {
   width: 85%;
   margin: 0 auto;
-  margin-top: 5vh;
-  display: grid;
-  grid-template-columns: 50% 1fr;
-  column-gap: 10vh;
-  row-gap: 20vh;
-  margin-bottom: 20vh;
+  margin-top: 3rem;
 }
 
 .img_tile {
   position: relative;
+  margin-bottom: 3rem;
 }
 
 .img_tile img {
@@ -108,11 +104,13 @@ h2 {
 }
 
 .caption p {
-  font-size: 2.7vh;
+  font-size: 2rem;
   text-align: center;
-  margin-top: 1vh;
+  margin-top: 1rem;
   margin-bottom: 0;
-  padding-bottom: 2vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
 }
 .bold {
   font-weight: 900;
@@ -120,8 +118,8 @@ h2 {
 footer {
   background-color: #0076ba;
   color: white;
-  font-size: 3vh;
-  padding: 1vh;
+  font-size: 1rem;
+  padding: 1.5rem;
 }
 
 footer p {
@@ -130,21 +128,18 @@ footer p {
 
 @media only screen and (max-width: 600px) {
   .img_gallery {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     width: 90%;
-    row-gap: 10vh;
-    margin-bottom: 10vh;
   }
 
-  .img_tile img {
-    min-width: 100%;
-    margin: 0 auto;
-  }
   .img_overlay:hover {
     opacity: 0;
   }
-  .caption {
-    font-size: 0.5vh;
+  .caption p {
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin: 0.3rem;
   }
   footer p {
     margin-left: 3vw;
