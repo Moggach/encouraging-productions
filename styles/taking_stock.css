@@ -149,6 +149,11 @@ footer p {
 
 @media only screen and (min-width: 900px) {
   .img_gallery {
-    max-width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap: 5rem;
+    grid-column-gap: 5rem;
+    margin-bottom: 10rem;
   }
 }
