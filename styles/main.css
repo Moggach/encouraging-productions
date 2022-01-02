@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
 
+@font-face {
+  font-family: 'Poplar Std';
+  src: url('PoplarStd.woff2') format('woff2'),
+    url('PoplarStd.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
