@@ -9,8 +9,6 @@
   font-display: swap;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -124,7 +122,6 @@ span {
   }
 
   .ts-logo a {
-    font-family: 'PoplarStd', 'Inter', sans-serif;
     font-size: 7rem;
   }
   img {
