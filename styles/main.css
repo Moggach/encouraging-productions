@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
 
-@font-face {
-  font-family: 'Poplar-Std-Black';
-  src: url('Poplar-Std-Black.woff') format('woff'),
-    url('Poplar-Std-Black.woff2') format('woff2'), url('Poplar-Std-Black.eot'),
-    url('Poplar-Std-Black.eot?#iefix') format('embedded-opentype'),
-    url('Poplar-Std-Black.ttf') format('truetype');
-
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -86,7 +74,7 @@ a {
 
 .ts-logo a {
   color: #0076ba;
-  font-family: 'Poplar-Std-Black', 'Inter';
+  font-family: 'PoplarStd', 'Inter', sans-serif;
   font-size: 2rem;
 }
 
