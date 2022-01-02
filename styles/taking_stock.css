@@ -1,8 +1,11 @@
 @font-face {
-  font-family: 'Poplar Std';
-  src: url('PoplarStd.woff2') format('woff2'),
-    url('PoplarStd.woff') format('woff');
-  font-weight: 900;
+  font-family: 'Poplar-Std-Black';
+  src: url('Poplar-Std-Black.woff') format('woff'),
+    url('Poplar-Std-Black.woff2') format('woff2'), url('Poplar-Std-Black.eot'),
+    url('Poplar-Std-Black.eot?#iefix') format('embedded-opentype'),
+    url('Poplar-Std-Black.ttf') format('truetype');
+
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -16,7 +19,7 @@ html {
 
 .taking_stock_header {
   color: #0076ba;
-  font-family: 'PoplarStd', 'Inter', sans-serif;
+  font-family: 'Poplar-Std-Black';
   display: flex;
   justify-content: space-between;
   align-items: center;
