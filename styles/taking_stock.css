@@ -1,14 +1,12 @@
 @font-face {
-  font-family: 'Poplar-Std-Black';
-  src: url('Poplar-Std-Black.woff') format('woff'),
-    url('Poplar-Std-Black.woff2') format('woff2'), url('Poplar-Std-Black.eot'),
-    url('Poplar-Std-Black.eot?#iefix') format('embedded-opentype'),
-    url('Poplar-Std-Black.ttf') format('truetype');
-
-  font-weight: normal;
+  font-family: 'Poplar Std';
+  src: url('PoplarStd.woff2') format('woff2'),
+    url('PoplarStd.woff') format('woff');
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 html {
