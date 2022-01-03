@@ -63,6 +63,7 @@ img {
   display: block;
   height: 30vh;
   margin: 0 auto;
+  margin-bottom: 2rem;
 }
 
 .contact {
@@ -75,21 +76,12 @@ a {
   text-decoration: none;
 }
 
-.ts-logo {
-  max-width: fit-content;
-  margin: 0 auto;
-  margin-bottom: 1.5rem;
-}
-
-.ts-logo a {
-  color: #0076ba;
-  font-family: 'PoplarStd', 'Inter', sans-serif;
-  font-size: 2rem;
-  font-weight: 900;
-}
-
 span {
   text-decoration: underline;
+}
+
+.ts-logo {
+  height: 10vh;
 }
 
 @media only screen and (min-width: 768px) {
@@ -122,11 +114,13 @@ span {
     max-height: calc((100vw - 40px) / (16 / 9));
   }
 
-  .ts-logo a {
-    font-size: 7rem;
-  }
   img {
     height: 40vh;
+  }
+
+  .ts-logo {
+    height: 20vh;
+    margin-top: -5rem;
   }
 
   .contact {
