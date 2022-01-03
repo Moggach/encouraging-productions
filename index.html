@@ -56,12 +56,27 @@
         <a href="https://www.encouragingproductions.com/takingstock"
           ><img class="ts-logo" src="./TakingStock.png" alt="Taking Stock"
         /></a>
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
 
-        <p class="contact">
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+
+        <!-- <p class="contact">
           <a href="mailto:cameron@encouragingproductions.com"
             >Contact: cameron@encouragingproductions.com</a
           >
-        </p>
+        </p> -->
       </div>
     </main>
   </body>
