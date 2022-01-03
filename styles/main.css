@@ -80,10 +80,55 @@ span {
 }
 
 .ts-logo {
-  height: 10vh;
-  margin-top: -1.5rem;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
 }
 
+label {
+  display: block;
+  margin: 1rem 0;
+}
+
+input {
+  display: block;
+  width: 80%;
+  margin-top: 0.5rem;
+  border: 0;
+  padding: 0.5rem;
+}
+
+textarea {
+  display: block;
+  width: 80%;
+  margin-top: 0.5rem;
+  resize: none;
+  border: 0;
+  padding: 0.5rem;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  color: #0076ba;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+button:hover {
+  background-color: #0076ba;
+  color: white;
+}
+
+button:focus {
+  border-color: #0076ba;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
 @media only screen and (min-width: 768px) {
   header {
     font-size: 3rem;
@@ -115,14 +160,28 @@ span {
   }
 
   img {
-    height: 40vh;
+    height: 50vh;
   }
 
   .ts-logo {
-    height: 20vh;
-    margin-top: -5rem;
+    width: 70%;
+    height: auto;
   }
 
+  form {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+  }
   .contact {
     font-size: 2rem;
     text-align: center;
