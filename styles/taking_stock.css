@@ -7,21 +7,19 @@ html {
 }
 
 .taking_stock_header {
-  color: #0076ba;
-  font-family: 'PoplarStd-Black', 'Inter', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .taking_stock_header img {
-  height: 15vh;
-  margin-left: -2rem;
+  max-width: 100%;
+  margin-left: -1rem;
 }
 
 .icon img {
-  height: 8vh;
-  margin-right: 0.5vw;
+  height: 10vh;
+  margin-right: 1.5rem;
   margin-left: auto;
   cursor: pointer;
 }
@@ -121,6 +119,9 @@ footer p {
 }
 
 @media only screen and (max-width: 600px) {
+  .icon img {
+    height: 4vh;
+  }
   .img_gallery {
     display: flex;
     flex-direction: column;
