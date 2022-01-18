@@ -150,4 +150,7 @@ footer p {
     grid-column-gap: 5rem;
     margin-bottom: 10rem;
   }
+  #extra-margin {
+    margin-bottom: 7rem;
+  }
 }
